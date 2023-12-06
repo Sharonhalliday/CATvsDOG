@@ -86,7 +86,7 @@
     text-decoration: underline;
     color: pink;
 }
-.end {
+/* .end {
     color: rgb(146, 145, 145);
 
 }
@@ -111,8 +111,8 @@
 }
 .edit {
     color: white;
-}
-#closingtag {
+} */
+/* #closingtag {
     background-color: black;
     padding-top: 80px;
     display: flex;
@@ -121,4 +121,20 @@
 }
 #final {
     padding-top: 80px;
+} */
+.container{
+    padding-top: 150px;
 }
+#C-showing{
+    display: none;
+}
+#img-edit{
+    height: 300px;
+    width: 500px;
+}
+.clickclick:hover{
+    text-decoration: underline;
+}
+.clickclick {
+   color: rgb(0, 153, 255);
+ }

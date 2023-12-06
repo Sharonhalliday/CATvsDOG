@@ -1,34 +1,42 @@
 $(document).ready(function() {
+  $(".dropdown-toggle").click(function() {
+  $("#menu-showing").toggle();
+  $("#menu-hidden").toggle();
+  });
+
+
     $("button#hello").click(function() {
-    $("ul").append("<li>Bark Bark!</li>");
+    $("ul.unstyled").prepend("<li>Bark Bark!</li>");
+    $("ul.styled").prepend("<li>Meow!</li>");
+    $('li').css('background-color', 'green');
+    $("ul.unstyled").children("li").first().click(function() {
+    $(this).remove();
+    });
+    $("ul.styled").children("li").first().click(function() {
+    $(this).remove();
+   });
     });
 
         
     $("button#stop").click(function() {
-    $("ul").append("<li>Meow!</li>");
+    $("ul.unstyled").prepend("<li>Bark Bark!</li>");
+    $("ul.styled").prepend("<li>Meow!</li>");
+    $('li').css('background-color', 'green');
+    $("ul.unstyled").children("li").first().click(function() {
+    $(this).remove();
+    });
+    $("ul.styled").children("li").first().click(function() {
+    $(this).remove();
     });
     });
 
-$(document).ready(function() {
-    $("button#hello").click(function() {
-      $("ul#user").append("<li>Bark Bark!</li>");
-      $("ul#webpage").append("<li>Meow!</li>");
-      $('li').css('background-color', 'green');
-    });
-  
-  
-    $("button#stop").click(function() {
-      $("ul#user").append("<li>Meow!</li>");
-      $("ul#webpage").append("<li>Bark Bark!</li>");
-      $('li').css('background-color', 'green');
-    });
-
-    // $("ul#user").children("li").first().click(function() {
-    // $(this).remove();
-    // });
-    // $("ul#webpage").children("li").first().click(function() {
-    // $(this).remove();
-    // });
+    $(".clickclick").click(function() {
+      $("#C-showing").toggle();
+      $("#D-hidden").toggle();
+      });
   });
+
+
+  
    
     
