@@ -1,0 +1,124 @@
+#logo{
+    padding-top: 17px;
+    padding-left: 50px;
+    width: 200px;
+}
+.first{
+    display: flex;
+    height: 70px;
+}
+
+#third{
+    display: flex;
+    padding-top: 20px;
+}
+.card{
+    border-color: white; 
+}
+#adjust{
+    width: 1000px;
+    display: flex;
+}
+.second{
+    width: 260px;
+}
+#adjust2{
+    padding-top: 30px;
+    padding-left: 40px;
+}
+#adjust2{
+    padding-top: 25px ;
+    padding-left: 40px;
+    height:20px ;
+}
+#adjust3{
+   padding-left: 30px;
+}
+#adjust4{
+    background-color:white;
+    color: rgba(80, 9, 152, 0.807);
+    border-color: white;
+    font-size: large;
+    font-weight: bold;
+ }
+ .dropdown-toggle:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: pink; 
+ }
+ .head{
+    height: 50px;
+    background-color: rgba(80, 9, 152, 0.807);
+    width: 100%;
+   
+ }
+ #menu-showing{
+    display :none ;
+ }
+.adjust5{
+    padding-left: 50px;
+    padding-top: 10px;
+    color: white;
+    font-weight: bold;
+}
+.dropdown-menu{
+    background-color: rgba(80, 9, 152, 0.807);
+}
+.dropdown-item{
+    color: white;
+}
+.container-fluid{
+   display: flex;
+}
+.adjust6{
+    padding-top: 10px;
+    padding-left: 70px;
+    color: white;
+    font-weight: bold;
+}
+#img-edit{
+    height:650px;
+    width: 100%;
+}
+
+
+.adjust6:hover{
+    text-decoration: underline;
+    color: pink;
+}
+.end {
+    color: rgb(146, 145, 145);
+
+}
+
+#closing {
+    display: flex;
+}
+
+.endspace {
+    padding-left: 50px;
+    padding-top: 130px;
+}
+.endedit {
+    padding-left: 90px;
+}
+
+.edit:hover {
+    text-decoration: underline;
+    transition: 0.1s ease-in-out;
+    text-decoration-color: rgb(4, 127, 136);
+
+}
+.edit {
+    color: white;
+}
+#closingtag {
+    background-color: black;
+    padding-top: 80px;
+    display: flex;
+    height: 500px;
+    width: 100%;
+}
+#final {
+    padding-top: 80px;
+}
